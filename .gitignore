@@ -39,3 +39,12 @@ MANIFEST
 
 # macOS artifacts
 .DS_Store
+
+# Tests
+/.pytest_cache/
+.deepeval
+.deepeval-cache.json
+
+__pycache__
+storage
+output
