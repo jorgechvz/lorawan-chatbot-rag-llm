@@ -1,7 +1,7 @@
 FROM node:20-alpine as build
 
 WORKDIR /app
-ARG NEXT_PUBLIC_CHAT_API
+
 # Install dependencies
 COPY package.json package-lock.* ./
 RUN npm install
