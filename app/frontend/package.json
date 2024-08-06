@@ -9,11 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "generate": "tsx app/api/chat/engine/generate.ts"
-  },
-  "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
-  },  
+  }, 
   "dependencies": {
     "@apidevtools/swagger-parser": "^10.1.0",
     "@e2b/code-interpreter": "^0.0.5",
